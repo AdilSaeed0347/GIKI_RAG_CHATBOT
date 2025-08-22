@@ -1,10 +1,10 @@
-# 🤖 GIKI RAG Chatbot
+#  GIKI RAG Chatbot
 
 A sophisticated Retrieval-Augmented Generation (RAG) chatbot specifically designed for GIKI (Ghulam Ishaq Khan Institute) which can help GIKI student about their queries, have smart privacy protection, and academic intelligence.
 
-## ✨ Features
+##  Features
 
-### 🎯 Core Capabilities
+###  Core Capabilities
 - **ChatGPT-like Interface**: Modern, intuitive chat experience
 - **Smart Document Analysis**: PDF, DOCX, TXT file processing
 - **Academic Intelligence**: Focused on educational content
@@ -12,23 +12,23 @@ A sophisticated Retrieval-Augmented Generation (RAG) chatbot specifically design
 - **Session Management**: Persistent conversations and document cache
 - **Official Document Links**: Direct access to GIKI policies and resources
 
-### 🧠 AI Features
+###  AI Features
 - **Context-Aware Responses**: Maintains conversation history
 - **Intent Detection**: Understands document requests vs specific questions
 - **Smart Chunking**: Optimized text processing for better retrieval
 - **Multi-format Support**: Handle various document types seamlessly
 
-### 🔒 Security & Privacy
+###  Security & Privacy
 - **Academic-Safe Filtering**: Blocks sensitive data but allows academic queries
 - **Secure API Key Management**: Environment-based configuration
 - **Content Validation**: Prevents dangerous or harmful content
 - **Session Isolation**: Each session is independent and secure
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Prerequisites
 - Python 3.8 or higher
-- Groq API key (free from [console.groq.com](https://console.groq.com/keys))
+  
 
 ### Installation
 
@@ -71,7 +71,7 @@ A sophisticated Retrieval-Augmented Generation (RAG) chatbot specifically design
 6. **Access the chatbot**:
    Open your browser and go to: `http://localhost:7860`
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 GIKI_RAG_Chatbot/
@@ -104,10 +104,10 @@ GIKI_RAG_Chatbot/
     └── chatbot.log
 ```
 
-## 💬 How to Use
+##  How to Use
 
 ### 1. **Setup Phase**
-   - Enter your Groq API key in the sidebar
+   - Enter your llama API key in the sidebar
    - Upload your documents (PDF, DOCX, TXT)
    - Wait for processing to complete
 
@@ -121,7 +121,7 @@ GIKI_RAG_Chatbot/
    - Export conversations for records
    - Monitor session statistics
 
-## 🎯 Example Queries
+##  Example Queries
 
 ### Document Requests (Get Official Links)
 - "I need GIKI admission policy"
@@ -162,7 +162,7 @@ DEBUG=True  # show detailed logs for troubleshooting
 - **TXT**: Plain text files, notices
 - **MD**: Markdown documents
 
-## 🔧 Development
+##  Development
 
 ### Adding New Features
 1. **Document Registry**: Add official GIKI documents in `src/chatbot.py`
@@ -176,19 +176,19 @@ DEBUG=True  # show detailed logs for troubleshooting
 - **Models**: Change Groq model in environment variables
 - **Chunk Sizes**: Adjust for different document types
 
-## 🛡️ Security Features
+##  Security Features
 
 ### Smart Privacy Protection
-- ✅ **Academic Queries Allowed**: Matriculation, grades, admission info
-- ❌ **Personal Data Blocked**: CNIC, phone numbers, email addresses
-- ⚠️ **Context Aware**: Distinguishes between academic and personal requests
+-  **Academic Queries Allowed**: Matriculation, grades, admission info
+-  **Personal Data Blocked**: CNIC, phone numbers, email addresses
+-  **Context Aware**: Distinguishes between academic and personal requests
 
 ### Content Validation
 - Blocks dangerous keywords and harmful content
 - Validates file types and sizes
 - Sanitizes user inputs and file names
 
-## 📊 Performance
+##  Performance
 
 ### Optimizations
 - **FAISS Vector Store**: Fast similarity search
@@ -201,19 +201,19 @@ DEBUG=True  # show detailed logs for troubleshooting
 - **Storage**: Temporary files auto-cleaned
 - **CPU**: Moderate usage during processing
 
-## 🐛 Troubleshooting
+##  Troubleshooting
 
 ### Common Issues
 
 **1. API Key Error**
 ```
-❌ ERROR: Please provide a valid Groq API key!
+ ERROR: Please provide a valid Groq API key!
 ```
 - Solution: Add your Groq API key to the `.env` file
 
 **2. Document Processing Error**
 ```
-❌ No documents could be processed successfully!
+ No documents could be processed successfully!
 ```
 - Solution: Check file formats (PDF, DOCX, TXT only)
 - Ensure files are not corrupted or password-protected
@@ -235,7 +235,7 @@ DEBUG=True
 
 Check logs in `logs/chatbot.log` for detailed information.
 
-## 🤝 Contributing
+##  Contributing
 
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/amazing-feature`)
@@ -243,11 +243,11 @@ Check logs in `logs/chatbot.log` for detailed information.
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## 📝 License
+##  License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - **Groq**: Fast AI inference
 - **LangChain**: RAG framework
@@ -255,13 +255,14 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - **FAISS**: Vector similarity search
 - **Sentence Transformers**: Text embeddings
 
-## 📞 Support
+##  Support
 
 For support and questions:
-- 📧 Email: adilahmad0347@gmail.com
-- 🐛 Issues: Create a GitHub issue
-- 📖 Docs: Check this README and code comments
+-  Email: adilahmad0347@gmail.com
+-  Issues: Create a GitHub issue
+-  Docs: Check this README and code comments
 
 ---
+
 
 **Made with ❤️ for GIKI Community by Adil saeed**
