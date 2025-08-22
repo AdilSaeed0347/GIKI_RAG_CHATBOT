@@ -7,33 +7,6 @@ This guide provides a detailed roadmap for developers to understand, study, and 
 
 ---
 
-## **📂 Project Structure**
-### **Root Directory: GIKI_RAG_CHATBOT**
-- `venv/`: Virtual environment for dependencies.
-- `data/`: Contains data files or documents for the RAG system.
-- `interface/`: Houses UI-related files.
-  - `__init__.py`: Initializes the package.
-  - `chat_interface.py`: Defines chat UI logic.
-  - `components.py`: Contains reusable UI components.
-  - `streamlit_app.py`: Main Streamlit application script.
-- `src/`: Contains core logic files.
-  - `__init__.py`: Initializes the package.
-  - `chatbot.py`: Core chatbot logic (2 modified lines).
-  - `config.py`: Configuration settings.
-  - `document_processor.py`: Document processing for RAG (5 modified lines).
-  - `privacy_protection.py`: Handles data privacy.
-  - `session_manager.py`: Manages conversation sessions.
-  - `utils.py`: Utility functions.
-- `logs/`: Directory for log files.
-- `.env`: Environment variables.
-- `.gitignore`: Git ignore file.
-- `README.md`: Project overview.
-- `requirements.txt`: Dependency list.
-- `OUTLINE`: Project outline.
-- `TIMELINE`: Development timeline.
-
----
-
 ## **📋 Study Sequence**
 ### **Step 1: Read README.md**
 Start here to understand the project’s purpose, setup instructions, and initial context. Look for setup commands and project goals.
@@ -100,5 +73,6 @@ Read these files for project structure and development history to plan your cust
 - Explore and modify code following the study sequence.
 
 ---
+
 
 ## **✅ This guide will help you master the project and tailor it to your requirements!**
